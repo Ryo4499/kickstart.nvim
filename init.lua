@@ -231,6 +231,7 @@ require('lazy').setup({
     { 'LazyVim/LazyVim', import = 'lazyvim.plugins' },
     { import = 'lazyvim.plugins.extras.coding.copilot' },
   },
+  { 'akinsho/toggleterm.nvim', version = '*', config = true },
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
 
